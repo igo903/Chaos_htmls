@@ -61,15 +61,16 @@ a{
 	text-decoration: none;
 	cursor:pointer;
 }
-a:hover {
-	text-decoration: underline;
-}	
+a:hover {text-decoration: underline;}
+.fl{float: left}
+.fr{float: right}	
 .clear{
 	clear:both;
 	height:0px;
 	overflow:hidden;
 	display:block;
 }
+
 .min-width{
 	width: 1024px;
 	margin: 0px auto;
@@ -85,11 +86,44 @@ a:hover {
 	box-shadow:         0px 10px 5px rgba(50, 50, 50, 0.15);
 }
 
-#header-info{
+#px-header #header-info{
 	background: url(../images/praxair-text-logo.png) no-repeat 0 0;
 	height: 32px;
-
+	line-height: 32px;
 }
+	.h-info-navi li{
+		float: left;
+		color: #fff;
+		text-transform: uppercase;
+		margin: 0px 0px;
+		padding: 0px 5px 0px 25px;
+	}
+		.h-info-navi li.home,.h-info-navi li.msg,.h-info-navi li.help{
+			background: url(../images/header-icons-css-sprite.png) no-repeat;
+		}
+		.h-info-navi li.home{
+			background-position: 3px 8px;
+		}
+		.h-info-navi li.msg{
+			background-position: 3px -20px;
+		}
+		.h-info-navi li.help{
+			background-position: 3px -47px;
+		}
+		.h-info-navi li.site-link{
+			padding-left: 5px;
+		}
+		.h-info-navi li.user{
+			text-transform: none;
+		}
+
+		.h-info-navi li a{
+			color: #fff;
+			padding-right: 10px;
+		}
+		.h-info-navi li.site-link a{
+			color: #5fa8e4;
+		}
 
 
 

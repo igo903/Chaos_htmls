@@ -125,6 +125,26 @@ a:hover {text-decoration: underline;}
 			color: #5fa8e4;
 		}
 
+#px-header #site-navi{
+	background: url(../images/praxair-logo.png) no-repeat 0 15px;
+	height: 75px;
+	line-height: 75px;
+}
+	.h-main-navi li{
+		float: left;
+		font-size: 21px;
+		color: #242424;
+		text-align: center;
+	}
+
+	.h-main-navi li.active{
+		border-bottom: 2px solid #00b760;
+	}
+
+	.h-main-navi li a{
+
+	}
+
 
 
 

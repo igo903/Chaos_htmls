@@ -130,7 +130,7 @@ a:hover {text-decoration: underline;}
 			color: #5fa8e4;
 		}
 
-<<<<<<< HEAD
+
 #px-header #site-navi{
 	background: url(../images/praxair-logo.png) no-repeat 0 15px;
 	height: 75px;
@@ -141,10 +141,28 @@ a:hover {text-decoration: underline;}
 		font-size: 21px;
 		color: #242424;
 		text-align: center;
+		width: 125px;
+		height: 74px;
+		position: relative;
+		cursor:pointer;
+	}
+	.h-main-navi li.inv-mgr,.h-main-navi li.bil-mgr{
+		width: 125px;
+	}
+	.h-main-navi li.account, .h-main-navi li.profile,.h-main-navi li.contact,
+	.h-main-navi li.account div, .h-main-navi li.profile div, .h-main-navi li.contact div{
+		width: 168px;line-height: 45px;
 	}
 
 	.h-main-navi li.active{
 		border-bottom: 2px solid #00b760;
+	}
+	.h-main-navi li div{
+		height: 45px;
+		position: absolute;
+		bottom: 15px;
+		line-height: 23px;
+		border-right: 1px solid #dcdcdc;
 	}
 
 	.h-main-navi li a{
@@ -152,7 +170,7 @@ a:hover {text-decoration: underline;}
 	}
 
 
-=======
+
 /*footer css*/
 #px-footer{
 	width: 100%;
@@ -182,6 +200,5 @@ a:hover {text-decoration: underline;}
 	line-height: 30px;
 	padding-left: 20px;
 }
->>>>>>> 056c8609421fd6a5e1fd446f6fd10ee108e5f77c
 
 

@@ -146,6 +146,9 @@ input{
 			margin: 20px 0;
 			color: #fc551e;
 		}
+		.input-error{
+			border:1px solid #fa9b7b!important;
+		}
 	#px-content .article{
 		background:#fff;
 		padding-top: 12px;
@@ -176,8 +179,15 @@ input{
 	padding: 20px 45px 54px 45px;
 	background: #f6f6f6;
 }
+.password-box .control-group{
+	margin-bottom: 0;
+}
 .password-box .control-group label{
 	padding-left: 132px;
+}
+.password-box .control-group .popover-icon{
+	background-image: url(../images/popover-icon.png);
+	padding: 6px 12px;
 }
 .password-box h1{
 	padding-bottom: 15px;

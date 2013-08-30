@@ -173,12 +173,14 @@ input{
 /*creat-password css*/
 .password-box{
 	width: 680px;
-	height: 418px;
-	padding: 32px 45px 0px 45px;
+	padding: 20px 45px 54px 45px;
 	background: #f6f6f6;
 }
+.password-box .control-group label{
+	padding-left: 132px;
+}
 .password-box h1{
-	padding-bottom: 19px;
+	padding-bottom: 15px;
 	border-bottom: 1px solid #e1e1e1;
 	font-size: 21px;
 	font-weight: normal;

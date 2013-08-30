@@ -1,0 +1,29 @@
+/*footer css*/
+#px-footer{
+	width: 100%;
+	height: 120px;
+	background: url(../images/footer-bg.png) repeat-x;
+}
+.footer-link{
+	height: 90px;
+}
+.footer-link ul li{
+	padding: 7px 0;
+}
+.footer-link .notice{
+	padding-top: 14px;
+}
+.footer-link ul li a{
+	color: #fff;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.footer-link .float-r{
+	margin-left: 84px;
+}
+#px-footer p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+}
+

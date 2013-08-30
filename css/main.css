@@ -62,6 +62,7 @@ a{
 	cursor:pointer;
 }
 a:hover {text-decoration: underline;}
+.clr{clear: both;}
 .fl{float: left}
 .fr{float: right}	
 .clear{
@@ -321,6 +322,9 @@ a:hover {text-decoration: underline;}
 	#px-content .right-col .condition-container{
 		padding: 20px 0 0 10px;
 	}
+	.condition-container .condition-inputs{
+		height: 80px;
+	}
 	
 	.condition-inputs .control-label{
 		float: left;
@@ -330,10 +334,9 @@ a:hover {text-decoration: underline;}
 	}
 	.condition-inputs .control-group{
 		padding:0px;
-		overflow: visible;
 	}
 	.condition-inputs .rt-inputs{
-		width: 330px;
+		width: 335px;
 	}
 	.condition-inputs .rt-inputs .controls{
 		margin-left: 150px;
@@ -349,6 +352,13 @@ a:hover {text-decoration: underline;}
 	}
 	.condition-inputs input{
 		width: 170px;
+	}
+
+	#px-content .right-col .condition-container .condition-date{
+		padding: 5px 0 0 95px;
+	}
+	.condition-date p{
+		font-size: 13px;
 	}
 
 

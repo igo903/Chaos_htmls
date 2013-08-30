@@ -328,6 +328,10 @@ a:hover {text-decoration: underline;}
 		padding-top: 5px;
 		text-align: right;
 	}
+	.condition-inputs .control-group{
+		padding:0px;
+		overflow: visible;
+	}
 	.condition-inputs .rt-inputs{
 		width: 330px;
 	}
@@ -341,6 +345,7 @@ a:hover {text-decoration: underline;}
 
 	.condition-inputs .controls{
 		margin-left: 93px;
+		margin-bottom: 0px;
 	}
 	.condition-inputs input{
 		width: 170px;

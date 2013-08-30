@@ -174,7 +174,7 @@ a:hover {text-decoration: underline;}
 	}
 
 
-/*home content css*/
+/*home page css*/
 #px-content{
 	margin-top: 20px;
 }
@@ -316,6 +316,35 @@ a:hover {text-decoration: underline;}
 		clear: left;
 	}
 
+
+/*search page css*/
+	#px-content .right-col .condition-container{
+		padding: 20px 0 0 10px;
+	}
+	
+	.condition-inputs .control-label{
+		float: left;
+		width: 83px;
+		padding-top: 5px;
+		text-align: right;
+	}
+	.condition-inputs .rt-inputs{
+		width: 330px;
+	}
+	.condition-inputs .rt-inputs .controls{
+		margin-left: 150px;
+	}
+
+	.condition-inputs .rt-inputs .control-label{
+		width: 140px;
+	}
+
+	.condition-inputs .controls{
+		margin-left: 93px;
+	}
+	.condition-inputs input{
+		width: 170px;
+	}
 
 
 

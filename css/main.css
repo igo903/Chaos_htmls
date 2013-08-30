@@ -212,6 +212,9 @@ a:hover {text-decoration: underline;}
 	.inv-mgr-container ul li a{
 		color: #00b760;
 	}
+	.inv-mgr-container ul li a.current{
+		color: #000;
+	}
 	.inv-mgr-container ul li:first-child{
 		padding-top: 0px;
 	}
@@ -408,24 +411,30 @@ a:hover {text-decoration: underline;}
 		position: absolute;
 		right: 0px;
 		top: 1px;
+		cursor: pointer;
 	}
 	/*search table data css*/
 	#px-content .right-col .search-table-data{
 		padding-top: 10px;
+		margin-bottom: 84px;
 		text-align: center;
 	}
 	
 	.search-table-data .table-result tr.t-head{
-
+		height: 50px;
 	}
 	.search-table-data .table-result .order-num{
 		text-decoration: underline;
 		color: #00b760;
 	}
-	.search-table-data .table-result tr.odd, .search-table-data .table-result tr.even{
+	.search-table-data .table-result tr{
 		height: 30px;
 		color: #5a5a5a;
 		font-size: 13px;
+	}
+	.search-table-data .table-result tr.page-control{
+		text-align: left;
+		background: #c8c8c8;
 	}
 	.search-table-data .table-result tr.even{
 		background: #ebebeb;
@@ -436,6 +445,30 @@ a:hover {text-decoration: underline;}
 		color: #fff;
 		font-size: 13px;
 	}
+	.search-table-data .table-result th:first-child{
+		padding-left: 5px;
+	}
+	.search-table-data .table-result th:last-child{
+		padding-right: 5px;
+	}
+		.page-control ul li{
+			float: left;
+			padding-right: 10px;
+		}
+		.page-control ul li a{
+			text-decoration: underline;
+			color: #00b760;
+		}
+		.page-control ul li a.inactive{
+			cursor: default;
+			color: #878787;
+		}
+		.page-control .pagination{
+			padding-left: 20px;
+		}
+		.page-control .pagination .info{
+			margin-left: 110px;
+		}
 
 
 

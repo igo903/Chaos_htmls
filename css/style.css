@@ -61,17 +61,17 @@ input{
 
 
 /*login css*/
-#px-content .register-bg{
+#px-content .login-bg{
 	background:#fff!important;
 }
-	#px-content .register{
+	#px-content .login{
 		position: relative;
 		background:#f6f6f6;
 		overflow: hidden;
 		margin-bottom: 10px;
 		padding-bottom: 20px;
 	}
-	.register legend {
+	.login legend {
 		display: block;
 		width: 100%;
 		padding: 0;
@@ -81,20 +81,20 @@ input{
 		border: 0;
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.register .control-group{
+	.login .control-group{
 		padding: 0 10px;
 		overflow: hidden;
 	}
-	.register .control-group .controls{
+	.login .control-group .controls{
 		margin-bottom: 20px;
 	}
-	.register	.control-group .controls label {
+	.login	.control-group .controls label {
 			display: block;
 			margin-bottom: 5px;
 			font-size: 13px;
 			font-weight: normal;
 		}
-	.register .control-group .controls input{
+	.login .control-group .controls input{
 			display: inline-block;
 			height: 20px;
 			padding: 4px 6px;
@@ -106,10 +106,10 @@ input{
 			border:2px solid #ebebeb;
 
 		}
-	.register .control-group .controls .input-middle{
+	.login .control-group .controls .input-middle{
 			width: 190px;
 		}
-	.register .control-group .controls  .radio, .checkbox {
+	.login .control-group .controls  .radio, .checkbox {
 			min-height: 20px;
 		}
 		.btn {

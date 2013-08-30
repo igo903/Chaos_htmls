@@ -81,6 +81,10 @@ a:hover {text-decoration: underline;}
 .float-r{
 	float: right;
 }
+.no-mb{
+	margin-bottom: 0px !important;
+}
+
 /*header css*/
 #px-header{
 	width: 100%;
@@ -169,6 +173,7 @@ a:hover {text-decoration: underline;}
 		border:none;
 	}
 
+
 /*home content css*/
 #px-content{
 	margin-top: 20px;
@@ -226,6 +231,89 @@ a:hover {text-decoration: underline;}
 		font-size: 21px;
 		font-weight: normal;
 		color: #00b760;
+	}
+
+	#px-content .right-col .inv-mgr-metro-box{
+		padding: 40px 0 0 10px;
+	}
+
+	.inv-mgr-metro-box .lf-panel{
+		padding-right: 23px;
+		margin-right: 36px;
+		border-right: 1px solid #00b760;
+		width: 282px;
+	}
+	.inv-mgr-metro-box .lf-panel div, .inv-mgr-metro-box .rt-panel div{
+		width: 126px;
+		height: 126px;
+		background: #00b760;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		float: left;
+		position: relative;
+	}
+	.inv-mgr-metro-box .lf-panel div div, .inv-mgr-metro-box .rt-panel div div{
+		background:url(../images/inv-mgr-metro-css-sprite.png) no-repeat;
+		width: 92px;
+		height: 56px;
+		position: absolute;
+		margin: 0px;
+	}
+	.inv-mgr-metro-box .lf-panel .reading{
+		background-position: 0 0;
+		top: 15px;
+		left: 35px;
+		width: 56px;
+
+	}
+	.inv-mgr-metro-box .lf-panel .status{
+		background-position: 0 -64px;
+		top: 15px;
+		left: 30px;
+		width: 64px;
+	}
+	.inv-mgr-metro-box .lf-panel .inv-account{
+		background-position: 0 -139px;
+		top: 25px;
+		left: 36px;
+		width: 56px;
+		height: 41px;
+	}
+	.inv-mgr-metro-box .lf-panel .docs{
+		background-position: 0 -193px;
+		top: 18px;
+		left: 40px;
+		width: 45px;
+		height: 51px;
+	}
+	.inv-mgr-metro-box .rt-panel .billing-account{
+		background-position: 0 -252px;
+		top: 18px;
+		left: 40px;
+		width: 46px;
+		height: 51px;
+	}
+
+	.inv-mgr-metro-box .rt-panel .history{
+		background-position: 0 -316px;
+		top: 26px;
+		left: 22px;
+		width: 80px;
+		height: 34px;
+	}
+
+	.inv-mgr-metro-box .lf-panel div p, .inv-mgr-metro-box .rt-panel div p{
+		position: absolute;
+		bottom: 0px;
+		background: rgba(0,0,0,.2);
+		font-size: 13px;
+		width: 112px;
+		color: #fff;
+		text-align: center;
+		padding: 7px;
+	}
+	.inv-mgr-metro-box .rt-panel div:last-child{
+		clear: left;
 	}
 
 

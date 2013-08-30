@@ -33,26 +33,28 @@
 
 	<section id="px-content" class="min-width">
 		<div class="left-col fl register-bg">
-			<form id="register">
-				<div class="control-group">
-				    <legend>Enter Login Detail</legend>
-				    <div class="controls">
-					    <label class="top-margin">Username(this is your email address)</label>
-					    <input type="text" id="Username" class="input-middle">
+			<form id="login-form">
+				<div class="register">
+					<div class="control-group">
+					    <legend>Enter Login Detail</legend>
+					    <div class="controls">
+						    <label class="top-margin">Username(this is your email address)</label>
+						    <input type="text" id="Username" class="input-middle">
+						</div>
+						<div class="controls">
+						    <label>Password</label>
+						    <input type="text" id="password" class="input-middle">
+						</div>
+						<div class="controls">
+						    <label class="checkbox">
+						      <input type="checkbox" id="checkbox" class="input-checkbox">Remember Me
+						    </label>
+						</div>
+					    <a href="javascript:;" class="btn btn-small float-r">Login<i class="btn-right"></i></a>
 					</div>
-					<div class="controls">
-					    <label>Password</label>
-					    <input type="text" id="password" class="input-middle">
-					</div>
-					<div class="controls">
-					    <label class="checkbox">
-					      <input type="checkbox" id="checkbox" class="input-checkbox">Remember Me
-					    </label>
-					</div>
-				    <a href="javascript:;" class="btn btn-small float-r">Login<i class="btn-right"></i></a>
 				</div>
 			</form>
-			<form id="register">
+			<div class="register">
 				<div class="control-group">
 				    <legend>User Registration</legend>
 				    <div class="controls">
@@ -60,7 +62,8 @@
 					</div>
 				     <a href="javascript:;" class="btn btn-large float-r">Register Now<i class="btn-right"></i></a>
 				</div>
-			</form>
+			</div>
+
 		</div>
 		<!--End left-col-->
 		<div class="right-col fl article">

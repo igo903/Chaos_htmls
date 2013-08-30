@@ -32,14 +32,14 @@
 #px-content .register-bg{
 	background:#fff!important;
 }
-	#px-content #register{
+	#px-content .register{
 		position: relative;
 		background:#f6f6f6;
 		overflow: hidden;
 		margin-bottom: 10px;
 		padding-bottom: 20px;
 	}
-	#register legend {
+	.register legend {
 		display: block;
 		width: 100%;
 		padding: 0;
@@ -49,20 +49,20 @@
 		border: 0;
 		border-bottom: 1px solid #e5e5e5;
 	}
-	#register .control-group{
+	.register .control-group{
 		padding: 0 10px;
 		overflow: hidden;
 	}
-	#register .control-group .controls{
+	.register .control-group .controls{
 		margin-bottom: 20px;
 	}
-		.control-group .controls label {
+	.register	.control-group .controls label {
 			display: block;
 			margin-bottom: 5px;
 			font-size: 13px;
 			font-weight: normal;
 		}
-		.control-group .controls input{
+	.register .control-group .controls input{
 			display: inline-block;
 			height: 20px;
 			padding: 4px 6px;
@@ -74,10 +74,10 @@
 			border:2px solid #ebebeb;
 
 		}
-		.control-group .controls .input-middle{
+	.register .control-group .controls .input-middle{
 			width: 190px;
 		}
-		.control-group .controls  .radio, .checkbox {
+	.register .control-group .controls  .radio, .checkbox {
 			min-height: 20px;
 		}
 		.btn {

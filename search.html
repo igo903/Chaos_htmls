@@ -55,12 +55,12 @@
 				<div class="condition-inputs">
 					<div class="lf-inputs fl">
 						<div class="control-group">
-							<label class="control-label">Access Code</label>
+							<label class="control-label" for="inputAccessId">Access Code</label>
 							<div class="controls"><input type="text" id="access-id"></div>
 						</div>
 
 						<div class="control-group">
-							<label class="control-label">Praxair#</label>
+							<label class="control-label" for="inputPraxair">Praxair#</label>
 							<div class="controls"><input type="text" id="praxair-id"></div>
 						</div>
 						
@@ -68,12 +68,12 @@
 					<!--End lf-inputs-->
 					<div class="rt-inputs fr">
 						<div class="control-group">
-							<label class="control-label">Order #</label>
+							<label class="control-label" for="inputOrder">Order #</label>
 							<div class="controls"><input type="text" id="order-id"></div>
 						</div>
 
 						<div class="control-group">
-							<label class="control-label">Blanket PO# / PO#</label>
+							<label class="control-label" for="inputBlanket">Blanket PO# / PO#</label>
 							<div class="controls"><input type="text" id="po-id"></div>
 						</div>
 					</div>
@@ -81,16 +81,21 @@
 				</div>
 				<div class="condition-date">
 					<p>Transaction Request Date</p>
-					<div class="from">
-						<label for="">From</label>
+					<div class="from fl">
+						<label for="inputFrom" class="control-label">From</label>
 						<div class="controls">
-							<input type="text" id="month" placehold="mm">
-							<input type="text" id="day" placehold="dd">
-							<input type="text" id="year" placehold="yy">
+							<input type="text" id="month" placeholder="mm">
+							<input type="text" id="day" placeholder="dd">
+							<input type="text" id="year" placeholder="yy">
 						</div>
 					</div>
-					<div class="to">
-						
+					<div class="to ">
+						<label for="inputFrom" class="control-label">To</label>
+						<div class="controls">
+							<input type="text" id="month" placeholder="mm">
+							<input type="text" id="day" placeholder="dd">
+							<input type="text" id="year" placeholder="yy">
+						</div>
 					</div>
 				</div>
 			</div>

@@ -360,15 +360,30 @@ a:hover {text-decoration: underline;}
 	}
 	.condition-date p{
 		font-size: 13px;
+		padding-bottom: 10px;
 	}
 	.condition-date .controls input{
 		margin-right: 10px;
+		text-align: center;
+	}
+	.condition-date .controls input:last-child{
+		margin-right: 0px;
 	}
 	.condition-date .controls #month, .condition-date .controls #day{
 		width: 40px;
 	}
 	.condition-date .controls #year{
 		width: 70px;
+	}
+	.condition-date .control-label{
+		width: auto;
+		padding-top: 9px;
+	}
+	.condition-date .controls{
+		margin-left: 38px;
+	}
+	.condition-date .to .controls{
+		margin-left: 24px;
 	}
 
 

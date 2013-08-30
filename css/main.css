@@ -361,6 +361,15 @@ a:hover {text-decoration: underline;}
 	.condition-date p{
 		font-size: 13px;
 	}
+	.condition-date .controls input{
+		margin-right: 10px;
+	}
+	.condition-date .controls #month, .condition-date .controls #day{
+		width: 40px;
+	}
+	.condition-date .controls #year{
+		width: 70px;
+	}
 
 
 

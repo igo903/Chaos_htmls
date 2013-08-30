@@ -334,6 +334,7 @@ a:hover {text-decoration: underline;}
 	}
 	.condition-inputs .control-group{
 		padding:0px;
+		margin-bottom: 0px;
 	}
 	.condition-inputs .rt-inputs{
 		width: 335px;
@@ -360,6 +361,24 @@ a:hover {text-decoration: underline;}
 	.condition-date p{
 		font-size: 13px;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

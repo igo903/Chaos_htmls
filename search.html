@@ -5,8 +5,16 @@
 	<title>Chaos - PX Bulk Express Home</title>
 	<link href="css/font.css" rel="stylesheet" type="text/css" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<link href="css/style.css"	rel="stylesheet"  type="text/css">
+	<link href="css/jquery.ui.all.css"	rel="stylesheet"  type="text/css">
+	
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>	
+	<script src="js/jquery.ui.core.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.datepicker.js"></script>
+
+
+
 </head>
 <body>
 	<header id="px-header">
@@ -93,22 +101,29 @@
 					<div class="from fl">
 						<label for="inputFrom" class="control-label">From</label>
 						<div class="controls">
-							<input type="text" id="month" placeholder="mm"/>
-							<input type="text" id="day" placeholder="dd"/>
-							<input type="text" id="year" placeholder="yy"/>
+							<input type="text" id="month" placeholder="mm" class="mm-datepick"/>
+							<input type="text" id="day" placeholder="dd" class="dd-datepick"/>
+							<input type="text" id="year" placeholder="yy" class="yy-datepick"/>
 							<i class="calendar-icon"></i>
 						</div>
 					</div>
 					<div class="to fl">
 						<label for="inputFrom" class="control-label">To</label>
 						<div class="controls">
-							<input type="text" id="to-month" placeholder="mm"/>
-							<input type="text" id="to-day" placeholder="dd"/>
-							<input type="text" id="to-year" placeholder="yy"/>
+							<input type="text" id="to-month" placeholder="mm" class="mm-datepick"/>
+							<input type="text" id="to-day" placeholder="dd" class="dd-datepick"/>
+							<input type="text" id="to-year" placeholder="yy" class="yy-datepick"/>
 							<i class="calendar-icon"></i>
 						</div>
 					</div>
 				</div>
+				<script type="text/javascript">
+					$('.mm-datepick').datepicker({dateFormat: "mm"});
+					$('.dd-datepick').datepicker({dateFormat: "dd"});
+					$('.yy-datepick').datepicker({dateFormat: "yy"});
+				</script>
+
+
 				<!--End condition-date-->
 				<div class="bar clr">
 					<a href="javascript:;" class="search-btn fr">Search</a>

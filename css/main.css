@@ -411,7 +411,6 @@ a:hover {text-decoration: underline;}
 		position: absolute;
 		right: 0px;
 		top: 1px;
-		cursor: pointer;
 	}
 	/*search table data css*/
 	#px-content .right-col .search-table-data{

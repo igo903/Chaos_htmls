@@ -365,15 +365,17 @@ a:hover {text-decoration: underline;}
 	.condition-date .controls input{
 		margin-right: 10px;
 		text-align: center;
+		width: 30px;
+		float: left;
 	}
-	.condition-date .controls input:last-child{
+	/*.condition-date .controls input:last-child{
 		margin-right: 0px;
-	}
-	.condition-date .controls #month, .condition-date .controls #day{
+	}*/
+	/*.condition-date .controls #month, .condition-date .controls #day{
 		width: 40px;
-	}
-	.condition-date .controls #year{
-		width: 70px;
+	}*/
+	.condition-date .controls #year, .condition-date .controls #to-year{
+		width: 60px;
 	}
 	.condition-date .control-label{
 		width: auto;
@@ -381,9 +383,26 @@ a:hover {text-decoration: underline;}
 	}
 	.condition-date .controls{
 		margin-left: 38px;
+		position: relative;
+	}
+	.condition-date .from{
+		width: 250px;
+	}
+	.condition-date .to{
+		width: 236px;
+		margin-left: 38px;
 	}
 	.condition-date .to .controls{
 		margin-left: 24px;
+	}
+	.condition-date .calendar-icon{
+		width: 24px;
+		height: 27px;
+		background: url(../images/calendar-icon.png) no-repeat;
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 1px;
 	}
 
 

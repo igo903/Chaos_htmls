@@ -141,7 +141,6 @@ a:hover {text-decoration: underline;}
 		font-size: 21px;
 		color: #242424;
 		text-align: center;
-		width: 125px;
 		height: 74px;
 		position: relative;
 		cursor:pointer;
@@ -156,6 +155,7 @@ a:hover {text-decoration: underline;}
 
 	.h-main-navi li.active{
 		border-bottom: 2px solid #00b760;
+		color: #00b760;
 	}
 	.h-main-navi li div{
 		height: 45px;

@@ -1,3 +1,4 @@
+/*bootstrap css*/
 .control-group {
 	margin-bottom: 20px;
 }
@@ -6,9 +7,6 @@
 	width: 160px;
 	padding-top: 5px;
 	text-align: right;
-}
-.controls {
-	margin-left: 180px;
 }
 input{
 	background-color: #fff;

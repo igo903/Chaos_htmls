@@ -65,6 +65,7 @@ a:hover {text-decoration: underline;}
 .clr{clear: both;}
 .fl{float: left}
 .fr{float: right}	
+.none{display: none !important;}
 .clear{
 	clear:both;
 	height:0px;
@@ -187,6 +188,27 @@ a:hover {text-decoration: underline;}
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
+#px-content .left-col .left-subNavi h1{
+	padding: 20px 0 20px 20px;
+	color: #08a562;
+	font-size: 13px;
+}
+#px-content .left-col .left-subNavi .menu{
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+	.left-subNavi .menu li{
+		height: 25px;
+		line-height: 25px;
+		padding-left: 15px;
+		background: url(../images/left-nav-arrow-icon.png) no-repeat 0 center;
+		cursor:pointer;
+	}
+	.left-subNavi .menu li a{
+		display: block;
+	}
+
 	#px-content .left-col .inv-mgr-container{
 		border: 1px solid #e9e9e9;
 	}
@@ -413,6 +435,13 @@ a:hover {text-decoration: underline;}
 		top: 1px;
 	}
 	/*search table data css*/
+	table .order-num{
+		text-decoration: underline;
+		color: #00b760 !important;
+	}
+	table .even{
+		background: #ebebeb;
+	}
 	#px-content .right-col .search-table-data{
 		padding-top: 10px;
 		margin-bottom: 84px;
@@ -422,10 +451,10 @@ a:hover {text-decoration: underline;}
 	.search-table-data .table-result tr.t-head{
 		height: 50px;
 	}
-	.search-table-data .table-result .order-num{
+	/*.search-table-data .table-result .order-num{
 		text-decoration: underline;
 		color: #00b760;
-	}
+	}*/
 	.search-table-data .table-result tr{
 		height: 30px;
 		color: #5a5a5a;
@@ -435,14 +464,15 @@ a:hover {text-decoration: underline;}
 		text-align: left;
 		background: #c8c8c8;
 	}
-	.search-table-data .table-result tr.even{
+	/*.search-table-data .table-result tr.even{
 		background: #ebebeb;
-	}
+	}*/
 
 	.search-table-data .table-result th{
 		background: #00b760;
 		color: #fff;
 		font-size: 13px;
+		font-weight: normal;
 	}
 	.search-table-data .table-result th:first-child{
 		padding-left: 5px;
@@ -469,9 +499,60 @@ a:hover {text-decoration: underline;}
 			margin-left: 110px;
 		}
 
+	/*billing manager page css*/
+	#px-content .right-col .billing-content{
+		padding-top: 10px;
+	}
+	.billing-content .payment-item{
+		margin-bottom: 1px;
+	}
+	.payment-item .payment-head{
+		height: 30px;
+		color: #fff;
+		padding-left: 30px;
+		line-height: 30px;
+		background: #00b760;
+		position: relative;
+		cursor: pointer;
+	}
+	.payment-item .payment-head .place{
+		position: absolute;
+		right: 20px;
+	}
+	/*.payment-item .payment-table tr.even{
+		background: #ebebeb;
+	}*/
+	.payment-item .payment-table th{
+		font-size: 13px;
+		font-weight: normal;
+		border-right: 1px solid #d7d7d7;
+		padding: 5px 0;
+		line-height: 16px;
+	}
+	.payment-item .payment-table th:last-child{
+		border: none;
+	}
+	.payment-item .payment-table td{
+		font-size: 14px;
+		text-align: center;
+		height: 45px;
+		color: #878787;
+	}
+		.payment-item .payment-table td.ctrls{
+			width: 160px;
+		}
+		.payment-item .payment-table td.ctrls .yy-datepick{
+			width: 40px;
+		}
+		.payment-item .payment-table td.ctrls span{
+			margin: 0px 3px;
+		}
+		.payment-table .paydate input{
+			width: 20px;
+			margin-bottom: 0px;
+		}
 
-
-
+/*left navigation sidebar*/
 
 
 

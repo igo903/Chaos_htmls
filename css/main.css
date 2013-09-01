@@ -269,6 +269,12 @@ a:hover {text-decoration: underline;}
 		font-weight: normal;
 		color: #00b760;
 	}
+	#px-content .right-col p.note{
+		color: #878787;
+		font-size: 13px;
+		padding-top: 20px;
+		line-height: 17px;
+	}
 
 	#px-content .right-col .inv-mgr-metro-box{
 		padding: 40px 0 0 10px;
@@ -509,11 +515,17 @@ a:hover {text-decoration: underline;}
 			margin-left: 110px;
 		}
 
-	/*billing manager page css*/
-	#px-content .right-col .billing-content{
+	/*billing manager, gauge readings page css*/
+	#px-content .right-col .billing-content, #px-content .right-col .gauge-content{
 		padding-top: 10px;
 	}
-	.billing-content .payment-item{
+	.right-col .table-checkbox{
+		border:1px solid #00b760;
+		width: 14px;
+		height: 14px;
+	}
+
+	.billing-content .payment-item, .gauge-reading .payment-item{
 		margin-bottom: 1px;
 	}
 	.payment-item .payment-head{
@@ -521,17 +533,27 @@ a:hover {text-decoration: underline;}
 		color: #fff;
 		padding-left: 30px;
 		line-height: 30px;
-		background: #00b760;
+		background: #00b760 url(../images/right-table-icon.png) no-repeat 12px center;
 		position: relative;
 		cursor: pointer;
 	}
+	.payment-item .payment-head.open{
+		background: #00b760 url(../images/down-table-icon.png) no-repeat 10px center;
+
+	}
+
 	.payment-item .payment-head .place{
 		position: absolute;
 		right: 20px;
 	}
+
+
 	/*.payment-item .payment-table tr.even{
 		background: #ebebeb;
 	}*/
+	.payment-item .payment-table.close{
+		display: none;
+	}
 	.payment-item .payment-table th{
 		font-size: 13px;
 		font-weight: normal;
@@ -562,7 +584,7 @@ a:hover {text-decoration: underline;}
 			margin-bottom: 0px;
 		}
 
-/*left navigation sidebar*/
+/**/
 
 
 

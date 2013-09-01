@@ -433,14 +433,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 		color: #ff4100;
 	}
 .account-detail{
+	margin-bottom: 5px;
 	overflow: hidden;
 }
 .account-detail .account-item {
 	background: #ebebeb;
-	width: 300px;
-	padding: 15px 0 0 20px;
+	width: 320px;
+	padding: 15px 0 0 0px;
 	float: left;
 	margin-top: 10px;
+}
+.account-detail .account-item ul{
+	padding-left: 20px;
 }
 .account-detail .account-item ul li{
 	padding-bottom: 15px;
@@ -448,11 +452,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .account-detail .account-current{
 	float: right;
 	background: #ebebeb;
-	width: 300px;
+	width: 320px;
 	height: 180px;
 	margin-top: 10px;
 }
-.account-detail .account-current h3{
+.account-detail .account-current h3, .account-status h3, .account-history h3{
 	height: 30px;
 	line-height: 30px;
 	padding-left: 20px;
@@ -461,7 +465,13 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .account-detail .account-status{
 	float: left;
-	width: 300px;
+	width: 320px;
+	height: 175px;
+	background:#ebebeb;
+}
+.account-detail .account-history{
+	float: right;
+	width: 320px;
 	height: 175px;
 	background:#ebebeb;
 }

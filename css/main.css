@@ -198,15 +198,25 @@ a:hover {text-decoration: underline;}
 	font-size: 13px;
 	text-decoration: underline;
 }
-	.left-subNavi .menu li{
+	/*.left-subNavi .menu li{
 		height: 25px;
 		line-height: 25px;
 		padding-left: 15px;
 		background: url(../images/left-nav-arrow-icon.png) no-repeat 0 center;
 		cursor:pointer;
-	}
-	.left-subNavi .menu li a{
+	}*/
+	.left-subNavi .menu a{
 		display: block;
+		height: 25px;
+		line-height: 25px;
+		padding-left: 15px;
+		background: url(../images/left-nav-arrow-icon.png) no-repeat 0 center;
+	}
+	.left-subNavi .menu a:hover{
+		color:#00B760;
+	}
+	.left-subNavi .menu .submenu{
+		padding-left: 20px;
 	}
 
 	#px-content .left-col .inv-mgr-container{

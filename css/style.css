@@ -255,7 +255,7 @@ input{
 	margin:14px 0 30px 0;
 	color: #5a5a5a;
 }
-.registration-box select {
+select {
 	background-color: #fff;
 	border: 1px solid #ccc;
 	height: 30px;
@@ -270,7 +270,7 @@ input{
 .registration-box .select-large{
 	width: 170px;
 }
-.registration-box select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	display: inline-block;
 	padding: 4px 6px;
 	margin-bottom: 10px;
@@ -401,4 +401,67 @@ input{
 }
 .input-small{
 	width: 70px;
+}
+/*tank-detail css*/
+.select-account{
+	margin: 10px 0 11px 0;
+	background: #ebebeb;
+}
+	.select-account .control-group {
+		padding-top: 10px;
+		margin-bottom: 0px;
+	}
+	.select-account .control-label {
+		float: left;
+		width: 140px;
+		padding-top: 5px;
+		text-align: right;
+	}
+	.select-account .controls {
+		margin-left: 150px;
+		margin-bottom: 0px;
+	}
+	.select-account .btn-right{
+		background-image: url(../images/btn-arrow-right.png);
+		width: 31px;
+		height: 31px;
+		float: right;
+		margin: -40px 74px;
+	}
+	.tank-title{
+		font-size: 12px;
+		color: #ff4100;
+	}
+.account-detail{
+	overflow: hidden;
+}
+.account-detail .account-item {
+	background: #ebebeb;
+	width: 300px;
+	padding: 15px 0 0 20px;
+	float: left;
+	margin-top: 10px;
+}
+.account-detail .account-item ul li{
+	padding-bottom: 15px;
+}
+.account-detail .account-current{
+	float: right;
+	background: #ebebeb;
+	width: 300px;
+	height: 180px;
+	margin-top: 10px;
+}
+.account-detail .account-current h3{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	background: #00b760;
+	color: #fff;
+}
+.account-detail .account-status{
+	float: left;
+	width: 300px;
+	height: 175px;
+	background:#ebebeb;
 }

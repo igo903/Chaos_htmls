@@ -21,10 +21,10 @@
 		</div>
 		<div id="site-navi" class="min-width">
 			<ul class="h-main-navi fr">
-				<li class="inv-mgr active"><div>Inventory Manager</div></li>
+				<li class="inv-mgr"><div>Inventory Manager</div></li>
 				<li class="bil-mgr"><div>Billing Manager</div></li>
 				<li class="account"><div>My Accounts</div></li>
-				<li class="profile"><div>My Profile</div></li>
+				<li class="profile active"><div>My Profile</div></li>
 				<li class="contact"><div>Contact Us</div></li>
 			</ul>
 		</div>
@@ -32,24 +32,52 @@
 	<!--End header-->
 
 	<section id="px-content" class="min-width">
-	<div class="password-box">
-		<h1>Create Password</h1>
-		<p>Welcome Fernando Jaview!<br>Thank you for registering with Praxair Express.Please create unique password for entrance into site.</p>
-		<div class="lf-inputs">
-			<div class="control-group">
-				<label class="control-label">Password&nbsp;</label>
-				<div class="controls"><input type="text" id="access-id"><i class="popover-icon"></i></div>
-			</div>
-			<div class="control-group">
-				<label class="control-label">Retype Password&nbsp;</label>
-				<div class="controls"><input type="text" id="praxair-id"></div>
-			</div>
-			<div class="submit-form">
-				<a href="javascript:;" class="btn btn-small">Cancel</a>
-				<a href="javascript:;" class="btn btn-small">Submit<i class="btn-right"></i></a>
+		<div class="left-col fl">
+			<div class="inv-mgr-container">
+				<div class="head-title">
+					logistic planner
+				</div>
+				<ul>
+					<li><a href="">Create Load</a></li>
+					<li><a href="">Load Status</a></li>
+					<li><a href="">View History</a></li>
+					<li><a href="">View / Cancel Request</a></li>
+					<li><a href="">Cancelled Request</a></li>
+					<li><a href="">Billing Entry Form</a></li>
+					<li><a href="">Billing Template Status</a></li>
+					<li><a href="" class="current">Trip Summary</a></li>
+					<li><a href="">Invoices</a></li>
+					<li><a href="">Shipping Documents</a></li>
+					<li><a href="">Audit Trial</a></li>
+					<li><a href="">Troubleshooting/a></li>
+					<li><a href="">Do Not Show</a></li>
+					<li><a href="">Account Maintenance</a></li>
+					<li><a href="">Customer Maintenance</a></li>
+				</ul>
 			</div>
 		</div>
-	</div>
+		<!--End left-col-->
+		<div class="right-col fl">
+			<h1>nventory Account Activation</h1>
+			<div class="activation">
+				<h3>Please enter account details</h3>
+				<div class="control-group">
+					<label class="control-label">Pracair#&nbsp;</label>
+					<div class="controls"><input type="text" id="access-id"><i class="popover-icon"></i></div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Order#&nbsp;</label>
+					<div class="controls">
+						<input type="text" id="praxair-id"><a href="javascript:;">What is this?</a>
+					</div>
+				</div>
+				<p>Not your Purchase Order# - use the Praxair Shipping Order #, from any Customer Billing Ticketyou received with a product delivery within the last 6 months</p>
+				<div class="submit-form">
+					<a href="javascript:;" class="btn btn-small">Cancel</a>
+					<a href="javascript:;" class="btn btn-small">Submit<i class="btn-right"></i></a>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!--End section-->
 
@@ -73,6 +101,8 @@
 		<!-- footer-link End -->
 		<p class="min-width">Copyright © 2013 Praxair Technology, Inc. All Rights Reserved.</p>
 	</footer>
-	<!--End footer-->
+	<!-- End footer -->
+
+	
 </body>
 </html>

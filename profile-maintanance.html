@@ -15,23 +15,26 @@
 				<li class="home"><a href="javascript:void(0)">Home</a>|</li>
 				<li class="msg"><a href="javascript:void(0)">Message Center</a>|</li>
 				<li class="help"><a href="javascript:void(0)">Help</a>|</li>
-				<li class="site-link"><a href="javascript:void(0)">PRAXAIR.COM ></a></li>
+				<li class="site-link"><a href="javascript:void(0)">PRAXAIR.COM ></a>|</li>
+				<li class="user">Welcome, <span>Fernando Javier</span><a href="javascript:void(0)"> (Not You?)</a></li>
 			</ul>
 		</div>
 		<div id="site-navi" class="min-width">
-			<ul class="fr country">
-				<li><i class="english"></i>English</li>
-				<li><i class="espanol"></i>Espanol</li>
-				<li><i class="erancais"></i>Francais</li>
+			<ul class="h-main-navi fr">
+				<li class="inv-mgr active"><div>Inventory Manager</div></li>
+				<li class="bil-mgr"><div>Billing Manager</div></li>
+				<li class="account"><div>My Accounts</div></li>
+				<li class="profile"><div>My Profile</div></li>
+				<li class="contact"><div>Contact Us</div></li>
 			</ul>
 		</div>
 	</header>
 	<!--End header-->
 
 	<section id="px-content" class="min-width">
-		<div class="registration-box">
+		<div class="registration-box maintenance">
 			<h1>Registration Profile</h1>
-			<p>Please note: Fields marked with * are mandatory.</p>
+			<h3>UPDATE YOUR PROFILE</h3>
 			<form action="#" id="search-request">
 				<div class="condition-inputs">
 					<div class="control-group">
@@ -48,11 +51,11 @@
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*First Name</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id" placeholder="CSR"></div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Last Name</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id"  placeholder="CFS"></div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Photo Type</label>
@@ -69,46 +72,54 @@
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Photo Number</label>
 						<div class="controls">
-							<input type="text" id="month"> -
-							<input type="text" id="day"> -
-							<input type="text" id="year"> Ext：
-							<input type="text" id="ext">
+							<input type="text" id="month" placeholder="123"> -
+							<input type="text" id="day" placeholder="123"> -
+							<input type="text" id="year" placeholder="1231"> Ext：
+							<input type="text" id="ext"  placeholder="123">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Cell Number</label>
 						<div class="controls">
-							<input type="text" id="month"> -
-							<input type="text" id="day"> -
-							<input type="text" id="year"> Ext：
-							<input type="text" id="ext">
+							<input type="text" id="month" placeholder="CSR"> -
+							<input type="text" id="day" placeholder="123"> -
+							<input type="text" id="year" placeholder="1231">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Emaill Address</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="inputPraxair">*Confirm Emaill Address</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id"  placeholder="email@email.com"></div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">*Company Name</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id" placeholder="HCL"></div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">Title</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id" placeholder="ttgasd"></div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPraxair">Department</label>
-						<div class="controls"><input type="text" id="praxair-id"></div>
+						<div class="controls"><input type="text" id="praxair-id" placeholder="hhjh"></div>
 					</div>
+					<h3>UPDATE YOUR PROFILE</h3>
 					<div class="control-group">
-						<label class="control-label" for="inputAccessId">*Preffered Language</label>
+						<label class="control-label" for="inputAccessId">*Choose Site Home Pages</label>
 						<div class="controls">
 							<select class="select-large">
-								<option>Select Lanuage</option>
+								<option>Billing Manager Home</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="inputAccessId"  placeholder="English">*Preffered Language</label>
+						<div class="controls">
+							<select class="select-large">
+								<option>English</option>
 								<option>2</option>
 								<option>3</option>
 								<option>4</option>
@@ -120,7 +131,7 @@
 						<label class="control-label" for="inputAccessId">*Region</label>
 						<div class="controls">
 							<select class="select-large">
-								<option>Select Country</option>
+								<option>USA</option>
 								<option>2</option>
 								<option>3</option>
 								<option>4</option>
@@ -130,6 +141,7 @@
 					</div>
 					<div class="submit-form">
 						<a href="javascript:;" class="btn btn-small">Cancel</a>
+						<a href="javascript:;" class="btn btn-small">Change Password</a>
 						<a href="javascript:;" class="btn btn-small">Submit<i class="btn-right"></i></a>
 					</div>
 				</div>

@@ -30,6 +30,30 @@ input{
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
+/*header css*/
+#px-header .country{
+	margin:12px 0 3px 0;
+}
+#px-header .country li{
+	float: none;
+	color: #878787;
+	font-size: 12px;
+	margin-bottom: 10px;
+	line-height: 10px;
+}
+.country .english, .country .espanol, .country .erancais {
+	background: url(../images/header-icons-css-sprite.png) no-repeat;
+	padding: 0 13px 0 5px;
+}
+.country .english{
+	background-position: 0 -81px;
+}
+.country .espanol{
+	background-position: 0 -109px;
+}
+.country .erancais{
+	background-position: 0 -136px;
+}
 /*footer css*/
 #px-footer{
 	width: 100%;
@@ -132,6 +156,9 @@ input{
 			width: 122px;
 			height: 36px;
 		}
+		.btn-meddle{
+			width: 185px;
+		}
 		.btn-right{
 			display: inline-block;
 			background-image: url(../images/btn-right.png);
@@ -215,7 +242,7 @@ input{
 	padding: 20px 45px 54px 45px;
 	background: #f6f6f6;
 }
-.registration-box h1{
+.contact-us, .maintenance-box, .registration-box h1{
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e1e1e1;
 	font-size: 21px;
@@ -240,6 +267,9 @@ input{
 .registration-box .select-middle{
 	width: 100px;
 }
+.registration-box .select-large{
+	width: 170px;
+}
 .registration-box select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	display: inline-block;
 	padding: 4px 6px;
@@ -250,4 +280,125 @@ input{
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+}
+.registration-box .condition-inputs{
+	overflow: hidden;
+}
+.registration-box .condition-inputs .controls {
+	margin-left: 180px;
+	margin-bottom: 0px;
+}
+.registration-box .control-label{
+	width:160px;
+}
+.registration-box #month,#day{
+	width: 30px;
+
+}
+.registration-box #year,#ext{
+	width: 60px;
+}
+.registration-box .submit-form {
+	margin-top: 30px;
+	float: right;
+}
+
+/*profile-maintanance css*/
+.maintenance{
+	float: right;
+	width: 600px;
+	padding: 20px 45px 54px 45px;
+	background: #f6f6f6;
+}
+.maintenance h3{
+	background:#00b760;
+	color: #fff;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin:11px 0 22px 0;
+}
+/*account activation*/
+.activation{
+	background: #ebebeb;
+	width: 450px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.activation h3{
+	background:#00b760;
+	color: #fff;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-bottom: 22px;
+}
+.activation .controls a{
+	color: #08a562;
+	text-decoration: underline;
+}
+.activation .control-label{
+	width: 50px;
+	margin-left: 28px;
+}
+.activation p{
+	margin: 0 125px 28px 28px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #878787;
+}
+.activation .submit-form{
+	padding-left: 72px;
+}
+/*contact css*/
+.contact-us{
+	float: right;
+	width: 725px;
+	padding: 20px 45px 54px 45px;
+	background:#f6f6f6;
+}
+.contact-us h3{
+	background:#00b760;
+	color: #fff;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin:11px 0 22px 0;
+}
+.contact-us .comment label{
+	font-size: 14px;
+	color: #5a5a5a;
+}
+.contact-us .comment .control-label{
+	margin:0 40px 0 18px;
+	width: 101px;
+}
+.contact-us .comment .select-large{
+	width: 280px;
+}
+.contact-us .comment textarea{
+	width: 600px;
+	height: 250px;
+	border:2px solid #ebebeb;
+	border-radius: 2px;
+}
+.contact-us .comment .inline{
+	display: inline-block;
+}
+.contact-us .comment input[type="radio"]{
+ 	cursor: pointer;
+ }
+ .contact-us .comment .controls{
+ 	font-size: 13px;
+ 	color: #5a5a5a;
+ }
+.contact-us .submit-form{
+	float: none!important;
+}
+.input-small{
+	width: 70px;
 }

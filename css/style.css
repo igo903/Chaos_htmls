@@ -209,6 +209,36 @@ input{
 .password-box .control-group{
 	margin-bottom: 0;
 }
+.password-box .lf-inputs{
+	width: 480px;
+	position: relative;
+}
+.password-box .lf-inputs .pop-hint-msg{
+	color: #fff;
+	background-color: rgba(0,0,0,.7);
+	border-radius: 5px;
+	padding: 8px 3px 8px 8px;
+	font-size: 11px;
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	top: -60px;
+	right: -135px;
+	display: none;
+}
+	.pop-hint-msg .hint-box{
+		position: relative;
+	}
+	.pop-hint-msg .arrow-down{
+		position: absolute;
+		width: 9px;
+		height: 6px;
+		background: url(../images/popover-down-icon.png);
+		left: 0px;
+		bottom: -15px;
+
+	}
+
 .password-box h1{
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e1e1e1;
@@ -221,7 +251,13 @@ input{
 }
 .password-box .control-group .popover-icon{
 	background-image: url(../images/popover-icon.png);
-	padding: 6px 12px;
+	/*padding: 6px 12px;*/
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	top: 5px;
+	right: 0px;
 }
 
 .password-box p{

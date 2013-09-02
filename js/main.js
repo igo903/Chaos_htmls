@@ -10,4 +10,10 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.popover-icon').mouseover(function(){
+		$('.pop-hint-msg').show();
+	}).mouseout(function(){
+		$('.pop-hint-msg').hide();
+	});
+
 });

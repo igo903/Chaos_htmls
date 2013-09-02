@@ -205,6 +205,7 @@ input{
 	width: 680px;
 	padding: 20px 45px 54px 45px;
 	background: #f6f6f6;
+	margin-bottom: 300px;
 }
 .password-box .control-group{
 	margin-bottom: 0;
@@ -264,11 +265,12 @@ input{
 	font-size: 13px;
 	line-height: 20px;
 	margin:14px 0 30px 0;
-	color: #5a5a5a;
+	color: #878787;
 }
 .password-box .submit-form{
 	margin-top: 30px;
-	text-align: center;
+	text-align: right;
+	margin-right: 30px;
 }
 
 
@@ -367,10 +369,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	background:#00b760;
 	color: #fff;
 	height: 30px;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 30px;
 	padding-left: 20px;
 	margin-bottom: 22px;
+	font-weight: normal;
 }
 .activation .controls a{
 	color: #08a562;

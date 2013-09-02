@@ -519,3 +519,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .margin-b{
 	margin-bottom: 36px;
 }
+/*list-of-tank css*/
+.th-info{
+	float: left;
+	padding-left: 20px!important;
+}

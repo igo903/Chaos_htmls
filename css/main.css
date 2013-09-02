@@ -455,8 +455,11 @@ a:hover {text-decoration: underline;}
 		text-decoration: underline;
 		color: #00b760 !important;
 	}
-	table .even{
+	table .even, table .mild{
 		background: #ebebeb;
+	}
+	table .deep{
+		background: #e1e1e1;
 	}
 	#px-content .right-col .search-table-data{
 		padding-top: 10px;
@@ -523,6 +526,7 @@ a:hover {text-decoration: underline;}
 		border:1px solid #00b760;
 		width: 14px;
 		height: 14px;
+		margin: 0px 5px 0 0;
 	}
 
 	.billing-content .payment-item, .gauge-reading .payment-item{
@@ -561,6 +565,10 @@ a:hover {text-decoration: underline;}
 		padding: 5px 0;
 		line-height: 16px;
 	}
+	.payment-item .payment-table th{
+		border:none;
+	}
+
 	.payment-item .payment-table th:last-child{
 		border: none;
 	}
@@ -570,8 +578,16 @@ a:hover {text-decoration: underline;}
 		height: 45px;
 		color: #878787;
 	}
+
+		.gauge-content .payment-item .payment-table td.ctrls{
+			width: 200px;
+		}
 		.payment-item .payment-table td.ctrls{
 			width: 160px;
+		}
+		.payment-item .payment-table td.table-footnotes{
+			text-align: left;
+			padding-left: 20px;
 		}
 		.payment-item .payment-table td.ctrls .yy-datepick{
 			width: 40px;
@@ -582,6 +598,18 @@ a:hover {text-decoration: underline;}
 		.payment-table .paydate input{
 			width: 20px;
 			margin-bottom: 0px;
+		}
+		.payment-table .paydate input.input30{
+			width: 30px;
+		}
+		.payment-table .paydate .date-format{
+			font-size: 14px;
+			padding: 5px 0;
+		}
+		.payment-table .paydate .date-format span{
+			font-size: 10px;
+			color: #878787;
+			padding-left: 5px;
 		}
 
 /**/

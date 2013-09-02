@@ -210,7 +210,6 @@ input{
 	margin-bottom: 0;
 }
 .password-box .lf-inputs{
-	width: 480px;
 	position: relative;
 }
 .password-box .lf-inputs .pop-hint-msg{
@@ -223,7 +222,7 @@ input{
 	height: 40px;
 	position: absolute;
 	top: -60px;
-	right: -135px;
+	right: 55px;
 	display: none;
 }
 	.pop-hint-msg .hint-box{
@@ -235,8 +234,7 @@ input{
 		height: 6px;
 		background: url(../images/popover-down-icon.png);
 		left: 0px;
-		bottom: -15px;
-
+		top: 48px;
 	}
 
 .password-box h1{
@@ -257,7 +255,7 @@ input{
 	height: 24px;
 	cursor: pointer;
 	top: 5px;
-	right: 0px;
+	right: 192px;
 }
 
 .password-box p{

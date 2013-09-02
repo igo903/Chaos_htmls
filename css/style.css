@@ -456,7 +456,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	height: 180px;
 	margin-top: 10px;
 }
-.account-detail .account-current h3, .account-status h3, .account-history h3{
+.account-detail  h3{
 	height: 30px;
 	line-height: 30px;
 	padding-left: 20px;

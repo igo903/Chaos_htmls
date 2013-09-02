@@ -281,6 +281,9 @@ input{
 	margin-bottom: 66px;
 	display: inline-block;
 }
+.registration-box .registration-datail{
+	padding: 0 20px;
+}
 .contact-us, .maintenance-box, .registration-box h1{
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e1e1e1;

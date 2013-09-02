@@ -529,7 +529,7 @@ a:hover {text-decoration: underline;}
 		margin: 0px 5px 0 0;
 	}
 
-	.billing-content .payment-item, .gauge-reading .payment-item{
+	.billing-content .payment-item, .gauge-content .payment-item{
 		margin-bottom: 1px;
 	}
 	.payment-item .payment-head{
@@ -571,13 +571,21 @@ a:hover {text-decoration: underline;}
 
 	.payment-item .payment-table th:last-child{
 		border: none;
+		text-align: right;
+		padding-right: 20px;
 	}
 	.payment-item .payment-table td{
 		font-size: 14px;
 		text-align: center;
 		height: 45px;
 		color: #878787;
-	}
+	}	
+		.gauge-content .button-control{
+			border-top: 1px solid #e1e1e1;
+			height: 65px;
+			line-height: 65px;
+			text-align: right;
+		}
 
 		.gauge-content .payment-item .payment-table td.ctrls{
 			width: 200px;
@@ -599,8 +607,8 @@ a:hover {text-decoration: underline;}
 			width: 20px;
 			margin-bottom: 0px;
 		}
-		.payment-table .paydate input.input30{
-			width: 30px;
+		.payment-table .paydate input.input90{
+			width: 90px;
 		}
 		.payment-table .paydate .date-format{
 			font-size: 14px;

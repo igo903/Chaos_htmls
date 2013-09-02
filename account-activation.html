@@ -8,6 +8,8 @@
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<link href="css/style.css"	rel="stylesheet"  type="text/css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<header id="px-header">
@@ -70,7 +72,13 @@
 				<div class="control-group">
 					<label class="control-label">Order#&nbsp;</label>
 					<div class="controls">
-						<input type="text" id="praxair-id"><a href="javascript:;">What is this?</a>
+						<input type="text" id="praxair-id">
+						<a href="javascript:;" class="popover-icon">What is this?</a>
+					</div>
+					<div class="pop-hint-msg">
+						<div class="hint-box">alpha numeric characters must have at least one lette.
+							<i class="arrow-down"></i>
+						</div>
 					</div>
 				</div>
 				<p>Not your Purchase Order# - use the Praxair Shipping Order #, from any Customer Billing Ticketyou received with a product delivery within the last 6 months</p>

@@ -16,4 +16,29 @@ $(document).ready(function(){
 		$('.pop-hint-msg').hide();
 	});
 
+
+	// popup
+	/**
+	 * show popup
+	 * selector - the jQuery selector of the popup
+	 */
+	var showPopup = function(selector) {
+		var body = $('body');
+		$('.alpha').width(body.width()).height(body.height()).css('display', 'block');
+		var popup = $(selector);
+		popup.css('display', 'block').css('margin', -popup.height() / 2 + 'px 0 0 ' + (-popup.width() / 2) + 'px');
+	};
+	$('.popup .close-btn, .alpha').bind('click', function() {
+		$('.alpha').css('display', 'none');
+		$('.popup').css('display','none');
+		$(this).parents('.popup').css('display', 'none');
+	});
+
+	$('.submit-btn').bind('click', function(){
+		showPopup('.popup-modal');
+	});
+
+
+
+
 });

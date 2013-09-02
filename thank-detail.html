@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<!--End left-col-->
-		<div class="right-col fl">
+		<div class="right-col fl margin-b">
 			<h1>Tank Detail</h1>
 				<div class="select-account">
 					<div class="control-group">
@@ -91,15 +91,17 @@
 				<div class="account-detail">
 					<div class="account-item">
 						<ul>
-							<li>Praxair #</li>
-							<li>Product</li>
-							<li>Tank Name</li>
-							<li>Supply System Setails</li>
-							<li>City/State</li>
-							<li>Style</li>
-							<li>Capacity</li>
-							<li>Owner</li>
-							<li>COC Type</li>
+							<li>Praxair #<span>:</span></li>
+							<li>Product<span>:</span></li>
+							<li>Tank Name<span>:</span></li>
+						</ul>
+						<ul>
+						    <li class="title">Supply System Setails</li>
+							<li>City/State<span>:</span></li>
+							<li>Style<span>:</span></li>
+							<li>Capacity<span>:</span></li>
+							<li>Owner<span>:</span></li>
+							<li>COC Type<span>:</span></li>
 						</ul>
 					</div>
 					<div class="account-current">
@@ -114,10 +116,33 @@
 						<h3>Reading History</h3>
 					</div>
 				</div>
-				<div class="account-detail">
+				<div class="account-detail account-bg">
 					<h3>Enter New Tank Reading</h3>
+						<div class="controls">
+					    	<label>Reading Date (MM/DD/YYYY)</label>
+							<input type="text" id="month01" class="mm-datepick">
+							<span>/</span>
+							<input type="text" id="date01" class="dd-datepick">
+							<span>/</span>
+							<input type="text" id="year01" class="yy-datepick">
+					</div>
+					<div class="controls">
+					    <label>Reading Time (HH:MM)</label><br>
+					    <input type="text" id="Username">
+					    <span>:</span>
+						<input type="text" id="Reading01">
+					</div>
+					<div class="controls">
+					    <label>Actual Reading</label><br>
+					    <input type="text" id="ActualRdaring" class="input-middle">
+					</div>
+					<div class="bar">
+						<a href="javascript:;" class="btn-reading">Enter Reading</a>
+					</div>
 				</div>
-				
+				<div class="done">
+					<a href="javascript:;" class="btn btn-small float-r">Done<i class="btn-right"></i></a>
+				</div>
 		</div>
 	</section>
 

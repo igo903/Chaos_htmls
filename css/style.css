@@ -436,6 +436,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	margin-bottom: 5px;
 	overflow: hidden;
 }
+.account-bg{
+	background:#ebebeb;
+}
 .account-detail .account-item {
 	background: #ebebeb;
 	width: 320px;
@@ -448,6 +451,14 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .account-detail .account-item ul li{
 	padding-bottom: 15px;
+}
+.account-detail .account-item ul li span{
+	float: right;
+	margin-right: 186px;
+}
+.account-detail .account-item ul li.title{
+	padding-top: 5px;
+	color: #00b760;
 }
 .account-detail .account-current{
 	float: right;
@@ -474,4 +485,37 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	width: 320px;
 	height: 175px;
 	background:#ebebeb;
+}
+.account-detail .controls{
+	width: 170px;
+	margin:14px 0 20px 0;
+	text-align: center;
+	display: inline-block;
+}
+.account-detail .controls input{
+	width: 20px;
+	margin-bottom:0;
+	margin-top: 6px; 
+}
+.account-detail .controls .input-middle{
+	width: 90px;
+}
+.account-detail .bar{
+	display: inline-block;
+}
+.account-detail .bar .btn-reading{
+	width: 122px;
+	height: 30px;
+	line-height: 30px;
+	background: #d7d7d7;
+	color: #b4b4b4;
+	text-align: center;
+	display: block;
+}
+.done{
+	margin:17px 0;
+	overflow: hidden;
+}
+.margin-b{
+	margin-bottom: 36px;
 }

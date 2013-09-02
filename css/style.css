@@ -250,7 +250,6 @@ input{
 }
 .password-box .control-group .popover-icon{
 	background-image: url(../images/popover-icon.png);
-	/*padding: 6px 12px;*/
 	position: absolute;
 	width: 24px;
 	height: 24px;
@@ -354,7 +353,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	padding-left: 20px;
 	margin:11px 0 22px 0;
 }
-/*account activation*/
+/*account activation css*/
 .activation{
 	background: #ebebeb;
 	width: 450px;
@@ -582,4 +581,51 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .th-info{
 	float: left;
 	padding-left: 20px!important;
+}
+/*request-confirmation css*/
+.right-col .confirm-info{
+	margin: 20px 0 13px 0;
+	overflow: hidden;
+}
+.right-col .confirm-info span{
+	font-size: 14px;
+	color: #5a5a5a;
+}
+.right-col .confirm-request{
+	overflow: hidden;
+}
+.right-col .copy-col{
+	font-size: 13px;
+	color: #878787;
+}
+.right-col .confirm-request .search-table-data{
+	width: 655px;
+	overflow: auto;
+}
+.right-col .confirm-request .table-result tr.t-head{
+	height: 30px;
+}
+.right-col .confirm-request .search-table-data{
+	margin-bottom: 20px!important;
+}
+.confirm-request .pop-hint-msg {
+	color: #fff;
+	background-color: rgba(0,0,0,.7);
+	border-radius: 5px;
+	padding: 8px 3px 8px 8px;
+	font-size: 11px;
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 119px;
+	left: 154px;
+	display: none;
+}
+.confirm-request .pop-hint-msg .arrow-down {
+	position: absolute;
+	width: 9px;
+	height: 6px;
+	background: url(../images/popover-down-icon.png);
+	left: 0px;
+	top: 28px;
 }

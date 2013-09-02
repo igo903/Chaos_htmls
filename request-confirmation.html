@@ -6,6 +6,7 @@
 	<link href="css/font.css" rel="stylesheet" type="text/css" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<link href="css/style.css"	rel="stylesheet"  type="text/css">
 </head>
 <body>
@@ -33,80 +34,80 @@
 
 	<section id="px-content" class="min-width">
 		<div class="left-col fl">
-			<div class="inv-mgr-container">
-				<div class="head-title">
-					logistic planner
+			<div class="left-subNavi">
+				<h1>OWS Manager</h1>
+				<div class="menu">
+					<ul><a href="">Comfirm Load Request</a></ul>
+					<ul><a href="">Load Status</a></ul>
+					<ul><a href="">View History</a></ul>
+					<ul><a href="">Trip Summary</a></ul>
+					<ul><a href="">Invoice</a></ul>
+					<ul><a href="">Shipping Documents</a></ul>
 				</div>
-				<ul>
-					<li><a href="">Create Load</a></li>
-					<li><a href="">Load Status</a></li>
-					<li><a href="">View History</a></li>
-					<li><a href="">View / Cancel Request</a></li>
-					<li><a href="">Cancelled Request</a></li>
-					<li><a href="">Billing Entry Form</a></li>
-					<li><a href="">Billing Template Status</a></li>
-					<li><a href="" class="current">Trip Summary</a></li>
-					<li><a href="">Invoices</a></li>
-					<li><a href="">Shipping Documents</a></li>
-					<li><a href="">Audit Trial</a></li>
-					<li><a href="">Troubleshooting/a></li>
-					<li><a href="">Do Not Show</a></li>
-					<li><a href="">Account Maintenance</a></li>
-					<li><a href="">Customer Maintenance</a></li>
-				</ul>
 			</div>
 		</div>
 		<!--End left-col-->
 		<div class="right-col fl">
 			<h1>Confirm Request</h1>
-			<div class="search-table-data clr">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0" id="table-result" class="table-result">
-                  <tr class="t-head"align="center" valign="middle" height="50px">
-                    <th>No.</th>
-                    <th>Peaxair #</th>
-                    <th>OWS Conmany</th>
-                    <th>AFE#</th>
-                    <th>PO#</th>
-                    <th>Product</th>
-                  </tr>
-                  <tr class="even">
-                    <td>1</td>
-                    <td>
-                    	<div class="controls">
-							<select class="select-large">
-								<option>Prowler Tubing Services</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-					</td>
-					<td>
-                    	<div class="controls">
-							<select class="select-large">
-								<option>PTS-Prowler Tubing Services</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-					</td>
-					<td>
-						<input type="text" class="input-small">
-					</td>
-					<td>
-						<input type="text" class="input-small">
-					</td>
-					<td>Fort Saskat</td>
-                  </tr>                  
-                </table> 
-                <div class="submit-form fr">
-						<a href="javascript:;" class="btn btn-meddle">Confirm Request<i class="btn-right"></i></a>
-					</div>
+			<div class="confirm-info">
+				<span class="fl">Praxair# : 5055371</span>
+				<span class="fr">Priduct : Liqduct  Argon</span>
 			</div>
-
+			<div class="copy-col"><input name="checkNo" type="checkbox" value="" class="table-checkbox">Copy All Columns</div>
+			<div class="confirm-request">
+				<div class="search-table-data clr">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" id="table-result" class="table-result">
+	                  <tr class="t-head"align="center" valign="middle" height="30px">
+	                    <th>No.</th>
+	                    <th>Peaxair# <input name="checkNo" type="checkbox" value="" class="table-checkbox popover-icon" ></th>
+	                    <th>OWS Conmany <input name="checkNo" type="checkbox" value="" class="table-checkbox"></th>
+	                    <th>AFE# <input name="checkNo" type="checkbox" value="" class="table-checkbox"></th>
+	                    <th>PO# <input name="checkNo" type="checkbox" value="" class="table-checkbox"></th>
+	                    <th>Product</th>
+	                  </tr>
+	                  <tr class="even">
+	                    <td>1</td>
+	                    <td>
+	                    	<div class="controls">
+								<select class="select-large">
+									<option>Prowler Tubing Services</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</td>
+						<td>
+	                    	<div class="controls">
+								<select class="select-large">
+									<option>PTS-Prowler Tubing Services</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<input type="text" class="input-small">
+						</td>
+						<td>
+							<input type="text" class="input-small">
+						</td>
+						<td>Fort Saskat</td>
+	                  </tr>                  
+	                </table> 
+				</div>
+				<div class="pop-hint-msg">
+						<div class="hint-box">Copy 1st ROW
+							<i class="arrow-down"></i>
+						</div>
+				</div>
+				<div class="submit-form fr">
+					<a href="javascript:;" class="btn btn-meddle">Confirm Request<i class="btn-right"></i></a>
+				</div>
+			</div>
 
 		</div>
 	</section>

@@ -452,6 +452,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .contact-us .comment .inline{
 	display: inline-block;
 }
+.contact-us .comment .radio-row{
+	font-size: 12px;
+	color: #999
+}
 .contact-us .comment input[type="radio"]{
  	cursor: pointer;
  }

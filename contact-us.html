@@ -48,19 +48,16 @@
 						</select>
 					</div>
 				</div>
+				<form action="#" method="get">
 				<textarea placeholder="Please enter your comments here..."></textarea>
 				<p>How would you like us to contact you?</p>
-				<form>
-					<label class="radio inline">
-						<input type="radio" id="optionsRadios1" value="option1"> Email
-					</label>
-					<label>
-						<input type="radio" id="inlineradio2" value="option2"> Fax
-					</label>
-					<label>
-						<input type="radio" id="inlineradio3" value="option3"> Phone
-					</label>
-				</form>		
+					<div class="inline radio-row">
+						<input type="radio" id="optionsRadios1" name="prefered-way" value="Email"/> Email
+						<input type="radio" id="inlineradio2" name="prefered-way" value="Fax"/> Fax
+						<input type="radio" id="inlineradio3" name="prefered-way" value="Phone"/> Phone
+					</div>
+					
+					
 				<div class="controls">
 					<input type="text" id="month"> -
 					<input type="text" id="day"> -
@@ -71,6 +68,7 @@
 					<a href="javascript:;" class="btn btn-small">Cancel</a>
 					<a href="javascript:;" class="btn btn-small">Submit<i class="btn-right"></i></a>
 				</div>
+				</form>	
 				<p>If you need to reach us directly, please call our Customer Care group @ 1-800-773-4877 between the hours of 08:00 AM - 05.00 PM Eastern, Mon - Fri, Outside of these hours, or in an emergency, please contact 1-800-PRAXAIR </p>
 			</div>
 		</div>

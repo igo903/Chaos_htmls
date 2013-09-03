@@ -345,6 +345,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	float: right;
 }
 
+.redirection
+{
+	position: absolute;
+	top: 170px;
+	right: 20px;
+}
 /*profile-maintanance css*/
 .maintenance{
 	float: right;

@@ -471,6 +471,9 @@ a:hover {text-decoration: underline;}
 		margin-bottom: 84px;
 		text-align: center;
 	}
+	.search-table-data .table-result{
+		width: 100%;
+	}
 	
 	.search-table-data .table-result tr.t-head{
 		height: 50px;
@@ -488,8 +491,8 @@ a:hover {text-decoration: underline;}
 	.search-table-data .page-control{
 		text-align: left;
 		background: #c8c8c8;
-		height: 25px;
-		line-height: 25px;
+		height: 30px;
+		line-height: 30px;
 	}
 	/*.search-table-data .table-result tr.even{
 		background: #ebebeb;

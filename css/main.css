@@ -465,6 +465,7 @@ a:hover {text-decoration: underline;}
 	}
 	table .deep{
 		background: #e1e1e1;
+		height: 20px;
 	}
 	#px-content .right-col .search-table-data{
 		padding-top: 10px;
@@ -477,6 +478,9 @@ a:hover {text-decoration: underline;}
 	
 	.search-table-data .table-result tr.t-head{
 		height: 50px;
+	}
+	.search-table-data .table-result tr.t-head.head30{
+		height: 30px;
 	}
 
 	.search-table-data .table-result tr{

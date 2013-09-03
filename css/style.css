@@ -10,16 +10,16 @@
 }
 input{
 	background-color: #fff;
-	border: 1px solid #ccc;
 	display: inline-block;
 	height: 20px;
-	padding: 4px 6px;
+/*	padding: 4px 6px;*/
 	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #555;
 	vertical-align: middle;
-	border-radius: 4px;
+	border:0;
+	/*border-radius: 4px;*/
 }
 /*header css*/
 #px-header .country{
@@ -309,7 +309,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	font-size: 14px;
 	color: #555;
 	vertical-align: middle;
-	border-radius: 4px;
+	border:0;
 }
 .registration-box .condition-inputs{
 	overflow: hidden;
@@ -501,8 +501,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 		background-image: url(../images/btn-arrow-right.png);
 		width: 31px;
 		height: 31px;
-		float: right;
-		margin: -40px 74px;
+		float: none!important;
+		margin: -5px 0;
+		position: relative;
+		top: 2px;
 	}
 	.tank-title{
 		font-size: 12px;
@@ -596,12 +598,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .margin-b{
 	margin-bottom: 36px;
 }
+
 /*list-of-tank css*/
 .th-info{
 	float: left;
 	padding-left: 20px!important;
 }
 /*request-confirmation css*/
+.right-col .table-checkbox{
+	border:0;
+}
 .right-col .confirm-info{
 	margin: 20px 0 13px 0;
 	overflow: hidden;

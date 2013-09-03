@@ -563,9 +563,9 @@ a:hover {text-decoration: underline;}
 	}
 
 
-	/*.payment-item .payment-table tr.even{
-		background: #ebebeb;
-	}*/
+	.payment-item .payment-table table{
+		width: 100%;
+	}
 	.payment-item .payment-table.close{
 		display: none;
 	}

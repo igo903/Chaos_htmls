@@ -223,7 +223,7 @@ a:hover {text-decoration: underline;}
 		border: 1px solid #e9e9e9;
 	}
 	.inv-mgr-container .head-title{
-		background: #e7e7e7;
+		background: #e7e7e7 url(../images/minus-icon.png) no-repeat 220px center;
 		height: 35px;
 		line-height: 35px;
 		padding: 0px 16px;
@@ -231,6 +231,10 @@ a:hover {text-decoration: underline;}
 		text-transform: uppercase;
 		font-size: 13px;
 		cursor:pointer;
+		position: relative;
+	}
+	.inv-mgr-container .head-title.close{
+		background: #e7e7e7 url(../images/plus-icon.png) no-repeat 220px center;
 	}
 	.inv-mgr-container ul{
 		background: #fff;

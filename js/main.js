@@ -16,6 +16,16 @@ $(document).ready(function(){
 		$('.pop-hint-msg').hide();
 	});
 
+	$('.head-title').click(function(){
+		if($(this).hasClass('close')){
+			$(this).removeClass('close');
+			$(this).next().show();
+		} else {
+			$(this).addClass('close');
+			$(this).next().hide();
+		}
+	});
+
 
 	// popup
 	/**

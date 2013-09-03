@@ -471,10 +471,7 @@ a:hover {text-decoration: underline;}
 	.search-table-data .table-result tr.t-head{
 		height: 50px;
 	}
-	/*.search-table-data .table-result .order-num{
-		text-decoration: underline;
-		color: #00b760;
-	}*/
+
 	.search-table-data .table-result tr{
 		height: 30px;
 		color: #5a5a5a;
@@ -483,6 +480,12 @@ a:hover {text-decoration: underline;}
 	.search-table-data .table-result tr.page-control{
 		text-align: left;
 		background: #c8c8c8;
+	}
+	.search-table-data .page-control{
+		text-align: left;
+		background: #c8c8c8;
+		height: 25px;
+		line-height: 25px;
 	}
 	/*.search-table-data .table-result tr.even{
 		background: #ebebeb;

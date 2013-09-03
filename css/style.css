@@ -321,12 +321,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .registration-box .control-label{
 	width:160px;
 }
-.registration-box #month,#day{
+/*.registration-box #month,#day{
 	width: 30px;
 
 }
 .registration-box #year,#ext{
 	width: 60px;
+}*/
+.registration-box .month-day-w{
+	width: 26px;
+}
+.registration-box .year-ext-w{
+	width: 36px!important;
 }
 .registration-box .submit-form {
 	margin-top: 30px;
@@ -343,8 +349,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .maintenance{
 	float: right;
 	width: 600px;
-	padding: 20px 45px 54px 45px;
+	padding: 20px 0px 54px 0px;
 	background: #f6f6f6;
+}
+.box-p{
+	padding: 0 20px;
 }
 .maintenance h3{
 	background:#00b760;
@@ -641,6 +650,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 table .even td .controls{
 	margin-top: 10px;
+}
+.request-list-th{
+	height: 30px!important;
 }
 /*progress css*/
 .progress {

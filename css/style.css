@@ -345,6 +345,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	float: right;
 }
 
+.redirection
+{
+	position: absolute;
+	top: 170px;
+	right: 20px;
+}
 /*profile-maintanance css*/
 .maintenance{
 	float: right;
@@ -530,7 +536,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	float: right;
 	background: #ebebeb;
 	width: 320px;
-	height: 180px;
 	margin-top: 10px;
 }
 .account-detail  h3{
@@ -641,4 +646,53 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 table .even td .controls{
 	margin-top: 10px;
+}
+/*progress css*/
+.progress {
+	position: relative;
+	height: 34px;
+	margin: 20px 20px 17px 20px;
+	overflow: hidden;
+}
+.progress .bar {
+	float: left;
+	width: 0;
+	height: 100%;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	background-color: #0e90d2;
+}
+.progress .bar-success {
+	background-color: #5eb95e;
+}
+.progress .bar-warning {
+	background-color: #faa732;
+}
+.progress .bar-danger {
+	background-color: #dd514c;
+}
+.progress span{
+	color: #878787;
+	font-size: 13px;
+	padding-top: 8px;
+	position: relative;
+	top: 8px;
+	left: 0;
+}
+.progress-info{
+	padding-left: 20px;
+}
+.progress-info li{
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+.progress-info li.inventory{
+	color: #ff4100;
+}
+.progress-info li.outtage{
+	color: #ff8300;
+}
+.progress-info li.full{
+	color: #0a6baa;
 }

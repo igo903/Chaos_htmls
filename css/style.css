@@ -187,6 +187,9 @@ input{
 			color: #00b760;
 			text-decoration: underline;
 		}
+		.left-subNavi .actived{
+			color:#00B760;
+		}
 
 
 

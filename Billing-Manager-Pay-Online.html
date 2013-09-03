@@ -43,21 +43,21 @@
 			<div class="left-subNavi">
 				<h1>Billing Manager</h1>
 				<div class="menu">
-					<ul><a href="">Invoice</a></ul>
-					<ul><a href="">Shipping Documents</a></ul>
+					<ul><li><a href="javascript:void(0)">Invoice</a></li></ul>
+					<ul><li><a href="javascript:void(0)">Shipping Documents</a><li></ul>
 
 					<ul class="">
-						<a href="active">Online Payments</a>
-						<li class="submenu">
-							<a href="">Payment History</a>
+						<li><a href="javascript:void(0)" class="actived">Online Payments</a>
+							<li class="submenu">
+								<a href="javascript:void(0)">Payment History</a>
 						</li>
 					</ul>
 
 					<ul>
-						<a href="">P.O.Changes</a>
+						<li><a href="javascript:void(0)">P.O.Changes</a></li>
 					</ul>
 					<ul>
-						<a href="">Acccount Activation</a>
+						<li><a href="javascript:void(0)">Acccount Activation</a></li>
 					</ul>
 				</div>
 			</div>
@@ -122,9 +122,9 @@
 							<td class="ctrls">
 							<div class="paydate">
 								<div class="controls">
-									<input type="text" id="month01" class="mm-datepick"/>
+									<input type="text" id="month" class="mm-datepick"/>
 									<span>/</span>
-									<input type="text" id="date01" class="dd-datepick"/>
+									<input type="text" id="date" class="dd-datepick"/>
 									<span>/</span>
 									<input type="text" id="year01" class="yy-datepick"/>
 								</div>
@@ -146,13 +146,29 @@
 									<span>/</span>
 									<input type="text" id="date01" class="dd-datepick"/>
 									<span>/</span>
-									<input type="text" id="year01" class="yy-datepick"/>
+									<input type="text" id="year" class="yy-datepick"/>
 								</div>
 							</div>
 						</td>
 						</tr>
 
 						</table>
+					</div>
+				</div>
+
+				<div class="payment-item">
+					<div class="payment-head"><span>No</span><span class="place">Altoona,PA</span></div>
+					<div class="payment-table close">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						  <tbody><tr align="center" valign="middle" height="50px" class="even">
+						    <th>Invoice<br>Date</th>
+						    <th>Invoice<br>Due Date</th>
+						    <th>Amount($)</th>
+						    <th>Discount<br>Due Date</th>
+						    <th>Discount If Paid<br>Before Due Date($)</th>
+						    <th>Payment<br>Date</th>
+						  </tr>
+						</tbody></table>
 					</div>
 				</div>
 
